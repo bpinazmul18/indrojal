@@ -1,7 +1,3 @@
-@php
-dd($services);
-@endphp
-
 @extends('layout')
 
 @section('content')
@@ -52,7 +48,7 @@ dd($services);
         </div>
     </div>
 </div><!-- flat-slider -->
-<section class="features py-2">
+<section class="features py-5">
     <div class="container d-lg-flex">
         <div class="row">
             <div class="col-md-4">
@@ -99,8 +95,9 @@ dd($services);
             </div>
         </div>
     </div>
-</section><!-- features -->
-<section class="who-we-are who-we-are-style1 py-2">
+</section>
+<!-- features -->
+<section class="who-we-are who-we-are-style1 py-5">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-12 col-lg-2 col-12">
@@ -125,7 +122,7 @@ dd($services);
         </div>
     </div>
 </section><!-- who-we-are -->
-<section class="fact-type2 py-2">
+<section class="fact-type2 py-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-3">
@@ -175,7 +172,8 @@ dd($services);
             </div>
         </div>
     </div>
-</section><!-- fact -->
+</section>
+<!-- fact -->
 <section class="cta-type2 parallax parallax3">
     <div class="section-overlay"></div>
     <div class="container position-relative text-center">
@@ -192,13 +190,14 @@ dd($services);
         <div class="circle-border circle-border3 none-767"></div>
     </div>
 </section><!-- cta -->
-<section class="flat-it-services flat-it-services-style1 py-2">
+<section class="flat-it-services flat-it-services-style1 py-5">
     <div class="container">
         <div class="title-section text-center">
             <h2 class="sub-title flat-title">আমাদের সেবাসমূহ</h2>
             <!-- <h2 class="flat-title">আপনার শিল্পের জন্য পরিচালিত আইটি পরিষেবাগুলি</h2>-->
         </div>
         {{-- @include('frontent.common.home-page-it-services') --}}
+        <x-services-list :services="$services" />
     </div>
 </section><!-- flat-it-services -->
 <section class="background-two-section">
