@@ -1,3 +1,7 @@
+@php
+dd($services);
+@endphp
+
 @extends('layout')
 
 @section('content')
