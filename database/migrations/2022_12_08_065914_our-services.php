@@ -19,6 +19,7 @@ class OurServices extends Migration
             $table->string('title');
             $table->longText('description');
             $table->string('slug');
+            $table->string('data_delay');
             $table->timestamps();
         });
     }
