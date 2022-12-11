@@ -33,3 +33,7 @@ Route::get('/products', function () {
         'products' => Products::all()
     ]);
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});
