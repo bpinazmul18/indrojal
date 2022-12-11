@@ -20,11 +20,11 @@
 
     <!-- Template Style-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="{{asset('asset/stylesheet/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{asset('asset/stylesheet/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('asset/stylesheet/animate.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css" integrity="sha512-c7jR/kCnu09ZrAKsWXsI/x9HCO9kkpHw4Ftqhofqs+I2hNxalK5RGwo/IAhW3iqCHIw55wBSSCFlm8JP0sw2Zw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="{{asset('asset/stylesheet/icomoon.css')}}">
-    <link rel="stylesheet" href="{{asset('asset/stylesheet/jquery-fancybox.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/stylesheet/animate.css')}}">
     <link rel="stylesheet" href="{{asset('asset/stylesheet/style.css')}}">
     <link rel="stylesheet" href="{{asset('asset/stylesheet/shortcodes.css')}}">
     <link rel="stylesheet" href="{{asset('asset/stylesheet/responsive.css')}}">
