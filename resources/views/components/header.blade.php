@@ -33,7 +33,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ url('free-auditing') }}" class="{{ Request::segment(1) === 'free-auditing' ? 'active' : '' }}">বিনামূল্যে
+                                <a href="{{ url('audit') }}" class="{{ Request::segment(1) === 'audit' ? 'active' : '' }}">বিনামূল্যে
                                     অডিট সেবা </a>
                                 <ul class="sub-menu">
                                     <li>

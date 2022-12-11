@@ -84,6 +84,45 @@
     <script src="{{asset('asset/rev-slider/js/extensions/extensionsrevolution.extension.parallax.min.js')}}"></script>
     <script src="{{asset('asset/rev-slider/js/extensions/extensionsrevolution.extension.slideanims.min.js')}}"></script>
     <script src="{{asset('asset/rev-slider/js/extensions/extensionsrevolution.extension.video.min.js')}}"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // for web page
+            $("#webpage_no").click(function() {
+                $('#show_page_content').hide('fast');
+                $("#webpage_no").prop("checked", true);
+                $("#webpage_yes").prop("checked", false);
+            });
+            $("#webpage_yes").click(function() {
+                $('#show_page_content').show('fast');
+                $("#webpage_yes").prop("checked", true);
+                $("#webpage_no").prop("checked", false);
+            });
+            // for social paid
+            $("#social_paid_no").click(function() {
+                $('#show_social_paid').hide('fast');
+                $("#social_paid_no").prop("checked", true);
+                $("#social_paid_yes").prop("checked", false);
+            });
+            $("#social_paid_yes").click(function() {
+                $('#show_social_paid').show('fast');
+                $("#social_paid_yes").prop("checked", true);
+                $("#social_paid_no").prop("checked", false);
+            });
+            // for social report
+            $("#social_report_no").click(function() {
+                $('#show_social_report').hide('fast');
+                $("#social_report_no").prop("checked", true);
+                $("#social_report_yes").prop("checked", false);
+            });
+            $("#social_report_yes").click(function() {
+                $('#show_social_report').show('fast');
+                $("#social_report_yes").prop("checked", true);
+                $("#social_report_no").prop("checked", false);
+            });
+        });
+
+    </script>
 </body>
 
 </html>
