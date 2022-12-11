@@ -701,10 +701,10 @@
         parallax();
         flatOwl();
         googleMap();
-        flatIsotopeCase();
+        // flatIsotopeCase();
         ajaxContactForm();
         spacer();
-        flatEqualizeHeight();
+        // flatEqualizeHeight();
         contentBox();
         flatCounter();
         flatTabs();
