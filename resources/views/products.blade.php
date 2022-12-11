@@ -2,24 +2,26 @@
 
 @section('content')
 
-<div class="page-title parallax parallax1 position-relative clearfix">
+
+
+<div class="page-title parallax parallax2 position-relative clearfix">
     <div class="section-overlay"></div>
     <div class="container">
         <div class="breadcrumbs position-relative">
             <div class="breadcrumbs-wrap">
-                <h1 class="title"> ভাইয়া ডিজিটাল-এর সেবা-সমুহ</h1>
+                <h1 class="title">আমাদের পণ্য</h1>
                 <ul class="breadcrumbs-inner">
-                    <li><a href="index.php">হোম</a></li>
-                    <li><a href="#">সেবা</a></li>
+                    <li><a href="/">হোম</a></li>
+                    <li><a href="#">পণ্য</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div><!-- page-title -->
 
-<div class="flat-it-services flat-it-services-style4 py-5">
+<div class="flat-it-services flat-it-services-style4 py-4">
     <div class="container">
-        <x-items-list :items="$it_services" />
+        <x-items-list :items="$products" />
     </div>
 </div><!-- flat-it-services -->
 <div class="cta">
@@ -40,5 +42,6 @@
         </div>
     </div>
 </div><!-- cta -->
+
 
 @endsection
