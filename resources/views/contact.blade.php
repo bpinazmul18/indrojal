@@ -17,7 +17,7 @@
         </div>
     </div>
 </div><!-- page-title -->
-<div class="contact flat-row-half">
+<div class="contact flat-row-half py-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
