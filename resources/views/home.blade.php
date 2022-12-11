@@ -50,8 +50,8 @@
 </div><!-- flat-slider -->
 <section class="features py-4">
     <div class="container d-lg-flex">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
                 <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before my-5">
                     <div class="iconbox-icon"><span class="icon"><img src="{{asset('asset/images/home_icon/1.png')}}" alt="" data-bgposition="center center" data-no-retina></span></div>
                     <div class="iconbox-content">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before my-5">
                     <div class="iconbox-icon"><span class="icon"><img src="{{asset('asset/images/home_icon/3.png')}}" alt="" data-bgposition="center center" data-no-retina></span></div>
                     <div class="iconbox-content">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before my-5">
                     <div class="iconbox-icon"><img class="icon" src="{{asset('asset/images/home_icon/2.png')}}" alt="" data-bgposition="center center" data-no-retina></div>
                     <div class="iconbox-content">
