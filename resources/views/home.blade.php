@@ -190,7 +190,7 @@
         <div class="circle-border circle-border3 none-767"></div>
     </div>
 </section><!-- cta -->
-<section class="flat-it-services flat-it-services-style1 py-5">
+<section class="flat-it-services flat-it-services-style1 py-4">
     <div class="container">
         <div class="title-section text-center">
             <h2 class="sub-title flat-title">আমাদের সেবাসমূহ</h2>
@@ -200,7 +200,7 @@
         <x-services-list :services="$services" />
     </div>
 </section><!-- flat-it-services -->
-<section class="background-two-section">
+<section class="background-two-section py-4">
     <div class="py-2 flat-case-study flat-case-study-type1 flat-case-study-style1">
         <div class="container">
             <div class="title-section text-center">
@@ -208,7 +208,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-5 flat-case-service2">
+                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-3 flat-case-service2">
                         <div class="featured-post position-relative">
                             <div class="entry-image">
                                 <img class="img-fluid" src="{{asset('asset/images/services/HRM.png')}}" alt="images">
@@ -223,7 +223,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6 wow fadeInLeft" data-wow-delay="200ms">
-                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-5 flat-case-service2">
+                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-3 flat-case-service2">
                         <div class="featured-post position-relative">
                             <div class="entry-image">
                                 <img class="img-fluid" src="{{asset('asset/images/services/E-Commerce.png')}}" alt="images">
@@ -237,7 +237,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInRight" data-wow-delay="200ms">
-                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-5 flat-case-service2">
+                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-3 flat-case-service2">
                         <div class="featured-post position-relative">
                             <div class="entry-image">
                                 <img class="img-fluid" src="{{asset('asset/images/services/Payroll.jpg')}}" alt="images">
@@ -255,11 +255,11 @@
     </div>
 </section>
 <!-- background-two-section -->
-<section class="testimonial testimonial-style1 py-2">
+<section class="testimonial testimonial-style1 py-4">
     <div class="container">
         <div class="title-section text-center">
             <p class="sub-title">প্রশংসাপত্র</p>
-            <h2 class="flat-title">আমাদের কি বলে<br> সম্মানিত গ্রাহকরা!</h2>
+            <h2 class="flat-title">আমাদের কি বলে সম্মানিত গ্রাহকরা!</h2>
         </div>
         <div class="custom-nav-testimonial">
             <div class="banners-z">
