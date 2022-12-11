@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Service;
+use App\Models\Services;
 use App\Models\ItServices;
 use Illuminate\Support\Facades\Route;
 
@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        'services' => Service::all()
+        'services' => Services::all()
     ]);
 });
 
