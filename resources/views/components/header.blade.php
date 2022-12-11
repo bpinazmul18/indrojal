@@ -14,32 +14,30 @@
                                 </a>
                             </li>
 
-                            <!-- <li>
-                                <a href="{{ url('it-services') }}"
-                                    class="{{ Request::segment(1) === 'it-services' ? 'active' : '' }}">সেবাখাত</a>
-                            </li> -->
-
-                            <li><a href="{{ url('it-services') }}" class="{{ Request::segment(1) === 'it-services' ? 'active' : '' }}">আইটি
-                                    সেবাসমূহ</a></li>
                             <li>
-                                <a href="{{ url('products') }}" class="{{ Request::segment(1) === 'products' ? 'active' : '' }}">এন্টারপ্রাইজ
-                                    সল্যুশন </a>
-                            </li>
-                            <li>
-                                <a href="{{ url('contact') }}" class="{{ Request::segment(1) === 'contact' ? 'active' : '' }}">যোগাযোগ </a>
-                            </li>
-                            <li>
-                                <a href="{{ url('about') }}" class="{{ Request::segment(1) === 'about' ? 'active' : '' }}">আমাদের সম্পর্কে
+                                <a href="{{ url('it-services') }}" class="{{ Request::segment(1) === 'it-services' ? 'active' : '' }}">
+                                    আইটি সেবাসমূহ
                                 </a>
                             </li>
                             <li>
-                                <a href="{{ url('audit') }}" class="{{ Request::segment(1) === 'audit' ? 'active' : '' }}">বিনামূল্যে
-                                    অডিট সেবা </a>
-                                <ul class="sub-menu">
-                                    <li>
-                                        <a href="{{ url('it-services-digital') }}">ডিজিটাল মার্কেটিং সেবা-সমুহ</a>
-                                    </li>
-                                </ul>
+                                <a href="{{ url('products') }}" class="{{ Request::segment(1) === 'products' ? 'active' : '' }}">
+                                    এন্টারপ্রাইজ সল্যুশন
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ url('contact') }}" class="{{ Request::segment(1) === 'contact' ? 'active' : '' }}">
+                                    যোগাযোগ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ url('about') }}" class="{{ Request::segment(1) === 'about' ? 'active' : '' }}">
+                                    আমাদের সম্পর্কে
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ url('audit') }}" class="{{ Request::segment(1) === 'audit' ? 'active' : '' }}">
+                                    বিনামূল্যে অডিট সেবা
+                                </a>
                             </li>
                         </ul>
                     </nav>
