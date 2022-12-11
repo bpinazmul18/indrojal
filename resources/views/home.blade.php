@@ -197,7 +197,7 @@
             <!-- <h2 class="flat-title">আপনার শিল্পের জন্য পরিচালিত আইটি পরিষেবাগুলি</h2>-->
         </div>
         {{-- @include('frontent.common.home-page-it-services') --}}
-        <x-services-list :services="$services" />
+        <x-items-list :items="$services" />
     </div>
 </section><!-- flat-it-services -->
 <section class="background-two-section py-4">

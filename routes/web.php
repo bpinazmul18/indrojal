@@ -2,6 +2,7 @@
 
 use App\Models\Services;
 use App\Models\ItServices;
+use App\Models\Products;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,5 +25,11 @@ Route::get('/', function () {
 Route::get('/it-services', function () {
     return view('it-services', [
         'it_services' => ItServices::all()
+    ]);
+});
+
+Route::get('/products', function () {
+    return view('products', [
+        'products' => Products::all()
     ]);
 });
