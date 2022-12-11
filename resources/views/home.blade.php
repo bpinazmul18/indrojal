@@ -48,7 +48,7 @@
         </div>
     </div>
 </div><!-- flat-slider -->
-<section class="features py-5">
+<section class="features py-4">
     <div class="container d-lg-flex">
         <div class="row">
             <div class="col-md-4">
@@ -122,11 +122,11 @@
         </div>
     </div>
 </section><!-- who-we-are -->
-<section class="fact-type2 py-5">
+<section class="fact-type2 py-4">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-5 p-0 counter counter-type2">
+                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
                     <div class="p-4 content-counter hv-background-before">
                         <div class="icon-count"><span class="icon-team"></span></div>
                         <div class="numb-count-wrap">
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-5 p-0 counter counter-type2">
+                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
                     <div class="p-4 content-counter hv-background-before">
                         <div class="icon-count"><span class="icon-portfolio"></span></div>
                         <div class="numb-count-wrap">
@@ -149,7 +149,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-5 p-0 counter counter-type2">
+                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
                     <div class="p-4 content-counter hv-background-before">
                         <div class="icon-count"><span class="icon-observation"></span></div>
                         <div class="numb-count-wrap">
@@ -160,7 +160,7 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-5 p-0 counter counter-type2">
+                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
                     <div class="p-4 content-counter hv-background-before">
                         <div class="icon-count"><span class="icon-spam"></span></div>
                         <div class="numb-count-wrap">
