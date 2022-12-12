@@ -186,21 +186,21 @@
     <div class="container">
         <div class="title-section text-center mb-5">
             <h2 class="sub-title flat-title mb-0">আমাদের সেবাসমূহ</h2>
-            <!-- <h2 class="flat-title">আপনার শিল্পের জন্য পরিচালিত আইটি পরিষেবাগুলি</h2>-->
         </div>
-        {{-- @include('frontent.common.home-page-it-services') --}}
         <x-items-list :items="$services" />
     </div>
-</section><!-- flat-it-services -->
-<section class="background-two-section py-4">
-    <div class="py-2 flat-case-study flat-case-study-type1 flat-case-study-style1">
+</section>
+<!-- flat-it-services -->
+
+<section class="background-two-section pt-5 pb-0">
+    <div class="flat-case-study flat-case-study-type1 flat-case-study-style1">
         <div class="container">
-            <div class="title-section text-center mb-4">
+            <div class="title-section text-center mb-5">
                 <p class="sub-title flat-title mb-0">আমাদের এন্টারপ্রাইজ সল্যুশনগুলো </p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
-                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-3 flat-case-service2">
+                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center mb-5 flat-case-service2">
                         <div class="featured-post position-relative">
                             <div class="entry-image">
                                 <img class="img-fluid" src="{{asset('asset/images/services/HRM.png')}}" alt="images">
@@ -215,7 +215,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6 wow fadeInLeft" data-wow-delay="200ms">
-                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-3 flat-case-service2">
+                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center mb-5 flat-case-service2">
                         <div class="featured-post position-relative">
                             <div class="entry-image">
                                 <img class="img-fluid" src="{{asset('asset/images/services/E-Commerce.png')}}" alt="images">
@@ -229,7 +229,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 wow fadeInRight" data-wow-delay="200ms">
-                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center my-3 flat-case-service2">
+                    <div class="overflow-hidden card shadow-lg border-0 p-0 rounded-3 text-center mb-5 flat-case-service2">
                         <div class="featured-post position-relative">
                             <div class="entry-image">
                                 <img class="img-fluid" src="{{asset('asset/images/services/Payroll.jpg')}}" alt="images">
