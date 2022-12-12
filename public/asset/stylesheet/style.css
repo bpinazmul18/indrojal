@@ -3381,7 +3381,7 @@ input::-webkit-input-placeholder {
 /* Components design
 -------------------------------------------------------------- */
 
-.card.counter {
+.card {
     background-color: #e9f2fe;
 }
 
@@ -3396,11 +3396,6 @@ input::-webkit-input-placeholder {
     transition: all 0.5s ease;
 }
 
-.card:hover.counter .icon {
-    color: #fff;
-    transition: all 0.5s ease;
-}
-
 .card.counter .content .numb-count,
 .card.counter .content .numb-plus {
     font-size: 65px;
@@ -3410,9 +3405,19 @@ input::-webkit-input-placeholder {
 }
 
 .card:hover.counter .content .numb-count,
-.card:hover.counter .content .numb-plus {
+.card:hover.counter .content .numb-plus,
+.card:hover.counter span,
+.card:hover.counter .icon {
     color: #fff;
     transition: all 0.5s ease;
+}
+.card.testimonial-box {
+    height: 352px;
+}
+.card:hover.testimonial-box .endorser .info,
+.card:hover.testimonial-box .endorser .info .name,
+.card:hover.testimonial-box .text-bold {
+    color: #fff;
 }
 
 .card.counter span {
@@ -3423,9 +3428,4 @@ input::-webkit-input-placeholder {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-}
-
-.card:hover.counter span {
-    color: #fff;
-    transition: all 0.5s ease;
 }

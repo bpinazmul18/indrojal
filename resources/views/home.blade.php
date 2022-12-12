@@ -247,9 +247,9 @@
     </div>
 </section>
 <!-- background-two-section -->
-<section class="testimonial testimonial-style1 py-4">
+<section class="testimonial testimonial-style1 pt-5 pb-0 ">
     <div class="container">
-        <div class="title-section text-center mb-0">
+        <div class="title-section text-center mb-5">
             <p class="sub-title">প্রশংসাপত্র</p>
             <h2 class="flat-title">আমাদের কি বলে সম্মানিত গ্রাহকরা!</h2>
         </div>
@@ -257,7 +257,7 @@
             <div class="banners-z">
                 <div class="flat-carousel-box data-effect clearfix" data-zero="0" data-gap="30" data-column="2" data-column2="1" data-column3="1" data-column4="1" data-column5="1" data-dots="false" data-auto="false" data-nav="false" data-loop="true">
                     <div class="owl-carousel" style="transition:.50s">
-                        <div class="card border-0 my-5 testimonial-box testimonial-box-type1 position-relative">
+                        <div class="card border-0 p-4 mb-5 testimonial-box testimonial-box-type1 position-relative">
                             <div class="endorser d-sm-flex align-items-center">
                                 <div class="avatar"><img src="{{asset('asset/images/testimonial/man.png')}}" alt="images"></div>
                                 <div class="info">
@@ -267,7 +267,7 @@
                             </div>
                             <div class="flat-spacer" data-desktop="26" data-sdesktop="26" data-mobi="15" data-smobi="15"></div>
                             <div class="content-testimonial">
-                                <div class="text-bold">
+                                <div class="text-bold mb-0">
                                     আমার ব্র্যান্ডটি নিয়ে ইন্দ্রজালের সাথে কাজ করতে দারুণ লেগেছে! আমার নিজের
                                     ব্র্যান্ডের অনেক অজানা সম্ভাবনা তারা আমায় দেখিয়েছে। যে সব কারণে তাদের সাথে কাজ করতে
                                     আমি স্বাচ্ছন্দ্য বোধ করেছি তা হচ্ছে তাদের দুর্দান্ত সব ক্রিয়েটিভ আইডিয়া,
@@ -281,7 +281,7 @@
                             <div class="spinning-circle"></div>
                             <div class="icon-represent"><span class="icon-trophy"></span></div>
                         </div>
-                        <div class="card border-0 my-5 testimonial-box testimonial-box-type1 position-relative">
+                        <div class="card border-0 p-4 mb-5 testimonial-box testimonial-box-type1 position-relative">
                             <div class="endorser d-sm-flex align-items-center">
                                 <div class="avatar"><img src="{{asset('asset/images/testimonial/man.png')}}" alt="images"></div>
                                 <div class="info">
@@ -291,7 +291,7 @@
                             </div>
                             <div class="flat-spacer" data-desktop="26" data-sdesktop="26" data-mobi="15" data-smobi="15"></div>
                             <div class="content-testimonial">
-                                <div class="text-bold">
+                                <div class="text-bold mb-0">
                                     ইন্দ্রজালের সাথে কাজ করাটা ছিল এক অন্যরকম অভিজ্ঞতা! তারা একটি পরিকল্পিত ডিজিটাল
                                     মার্কেটিং স্ট্র্যাটেজি তৈরি করেছে এবং ডিজিটাল প্ল্যাটফর্মে আমাদের ব্র্যান্ডটি তুলে
                                     ধরতে দুর্দান্ত অবদান রেখেছে। তারা আমাদের প্রয়োজনগুলি বোঝে এবং তার জন্য মানানসই
@@ -303,7 +303,7 @@
                             <div class="spinning-circle"></div>
                             <div class="icon-represent"><span class="icon-trophy"></span></div>
                         </div>
-                        <div class="card border-0 my-5 testimonial-box testimonial-box-type1 position-relative">
+                        <div class="card border-0 p-4 mb-5 testimonial-box testimonial-box-type1 position-relative">
                             <div class="endorser d-sm-flex align-items-center">
                                 <div class="avatar"><img src="{{asset('asset/images/testimonial/man.png')}}" alt="images"></div>
                                 <div class="info">
@@ -313,7 +313,7 @@
                             </div>
                             <div class="flat-spacer" data-desktop="26" data-sdesktop="26" data-mobi="15" data-smobi="15"></div>
                             <div class="content-testimonial">
-                                <div class="text-bold">
+                                <div class="text-bold mb-0">
                                     যে সেবা আমি 'ইন্দ্রজাল'-এর কাছ থেকে পেয়েছি তাতে আমরা ইম্প্রেসড। তাদের
                                     পেশাদারিত্ব, ডিটেইলসের প্রতি মনোযোগ এবং আগ্রহের সাথে আমাদের কথা শোনার বিষয়টি আমার
                                     সবচেয়ে বেশী ভাল লেগেছে। ডিজিটাল মার্কেটিং এর জন্য কিভাবে খরচ করলে আমার বিনিয়োগের
@@ -324,7 +324,7 @@
                             <div class="spinning-circle"></div>
                             <div class="icon-represent"><span class="icon-trophy"></span></div>
                         </div>
-                        <div class="card border-0 my-5 testimonial-box testimonial-box-type1 position-relative">
+                        <div class="card border-0 p-4 mb-5 testimonial-box testimonial-box-type1 position-relative">
                             <div class="endorser d-sm-flex align-items-center">
                                 <div class="avatar"><img src="{{asset('asset/images/testimonial/man.png')}}" alt="images"></div>
                                 <div class="info">
@@ -334,7 +334,7 @@
                             </div>
                             <div class="flat-spacer" data-desktop="26" data-sdesktop="26" data-mobi="15" data-smobi="15"></div>
                             <div class="content-testimonial">
-                                <div class="text-bold">
+                                <div class="text-bold mb-0">
                                     আগে আমার নামে অনেকগুলি ফেইক পেইজ ও প্রোফাইল ছিল। ইন্দ্রজাল সাহয্যে আমার
                                     ফেইসবুক প্রোফাইল ও পেইজ মেন্টেইন করে আমি এখন বেশ স্বস্তিতে আছি। আমার পেইজ ভেরিফাইড
                                     করতে যা যা করা প্রয়োজন তার সবটুকুই ইন্দ্রজাল করেছে। তার উপর আমার শত ব্যস্ততার মাঝেও
@@ -350,7 +350,7 @@
             </div>
         </div>
     </div>
-</section>=
+</section>
 
 <!-- get-in-touch -->
 <div class="blog-post blog-post-style1">
