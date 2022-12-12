@@ -48,11 +48,11 @@
         </div>
     </div>
 </div><!-- flat-slider -->
-<section class="features py-4">
+<section class="features py-5">
     <div class="container d-lg-flex">
         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before my-5">
+                <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before">
                     <div class="iconbox-icon"><span class="icon"><img src="{{asset('asset/images/home_icon/1.png')}}" alt="" data-bgposition="center center" data-no-retina></span></div>
                     <div class="iconbox-content">
                         <h3 class="title">ক্রিয়েটিভ বা সৃজনশীল সেবা </h3>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before my-5">
+                <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before">
                     <div class="iconbox-icon"><span class="icon"><img src="{{asset('asset/images/home_icon/3.png')}}" alt="" data-bgposition="center center" data-no-retina></span></div>
                     <div class="iconbox-content">
                         <h3 class="title">তথ্যপ্রযুক্তি বা আইটি সেবা</h3>
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before my-5">
+                <div class="card shadow-lg border-0 p-4 rounded-3 text-center iconbox-features hv-background-before">
                     <div class="iconbox-icon"><img class="icon" src="{{asset('asset/images/home_icon/2.png')}}" alt="" data-bgposition="center center" data-no-retina></div>
                     <div class="iconbox-content">
                         <h3 class="title">ডিজিটাল মার্কেটিং ও ব্র্যান্ডিং সেবা</h3>
@@ -122,51 +122,44 @@
         </div>
     </div>
 </section><!-- who-we-are -->
-<section class="fact-type2 py-4">
+<section class="fact-type2 py-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
-                    <div class="p-4 content-counter hv-background-before">
-                        <div class="icon-count"><span class="icon-team"></span></div>
-                        <div class="numb-count-wrap">
-                            <span class="numb-count" data-from="0" data-to="56" data-speed="2000" data-inviewport="yes">৫৬</span>
-                            <span class="numb-plus">+</span>
-                        </div>
-                        <div class="name-count">শুভ ক্লায়েন্ট</div>
+                <div class="card border-0 rounded-3 shadow-lg text-center p-4 counter">
+                    <div class="mb-3"><span class="icon icon-team"></span></div>
+                    <div class="mb-2 content">
+                        <span class="h1 numb-count" data-from="0" data-to="56" data-speed="2000" data-inviewport="yes">৫৬</span>
+                        <span class="numb-plus">+</span>
+                        <span class="name-count d-block">শুভ ক্লায়েন্ট</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card border-0 rounded-3 shadow-lg text-center p-4 counter">
+                    <div class="mb-3"><span class="icon icon-portfolio"></span></div>
+                    <div class="mb-2 content">
+                        <span class="h1 numb-count" data-from="0" data-to="34" data-speed="2000" data-inviewport="yes">৩৪</span>
+                        <span class="name-count d-block">সমাপ্ত প্রকল্প</span>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
-                    <div class="p-4 content-counter hv-background-before">
-                        <div class="icon-count"><span class="icon-portfolio"></span></div>
-                        <div class="numb-count-wrap">
-                            <span class="numb-count" data-from="0" data-to="34" data-speed="2000" data-inviewport="yes">৩৪</span>
-                        </div>
-                        <div class="name-count">সমাপ্ত প্রকল্প</div>
+                <div class="card border-0 rounded-3 shadow-lg text-center p-4 counter">
+                    <div class="mb-3"><span class="icon icon-observation"></span></div>
+                    <div class="mb-2 content">
+                        <span class="h1 numb-count" data-from="0" data-to="34" data-speed="2000" data-inviewport="yes">৩৪</span>
+                        <span class="name-count d-block">দক্ষ বিশেষজ্ঞ</span>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
-                    <div class="p-4 content-counter hv-background-before">
-                        <div class="icon-count"><span class="icon-observation"></span></div>
-                        <div class="numb-count-wrap">
-                            <span class="numb-count" data-from="0" data-to="34" data-speed="2000" data-inviewport="yes">৩৪</span>
-                        </div>
-                        <div class="name-count">দক্ষ বিশেষজ্ঞ</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card border-0 rounded-3 shadow-lg text-center my-4 p-0 counter counter-type2">
-                    <div class="p-4 content-counter hv-background-before">
-                        <div class="icon-count"><span class="icon-spam"></span></div>
-                        <div class="numb-count-wrap">
-                            <span class="numb-count" data-from="0" data-to="38" data-speed="2000" data-inviewport="yes">৩৪</span>
-                        </div>
-                        <div class="name-count">মিডিয়া পোস্ট</div>
+                <div class="card border-0 rounded-3 shadow-lg text-center p-4 counter">
+                    <div class="mb-3"><span class="icon icon-spam"></span></div>
+                    <div class="mb-2 content">
+                        <span class="h1 numb-count" data-from="0" data-to="38" data-speed="2000" data-inviewport="yes">৩৪</span>
+                        <span class="name-count d-block">মিডিয়া পোস্ট</span>
                     </div>
                 </div>
             </div>
