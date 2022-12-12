@@ -273,7 +273,7 @@
     -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     background-color: #e9f2fe;
-    min-height: 436px;
+    min-height: 404px;
 }
 .iconbox-features.has-scale {
     z-index: 9;
@@ -536,7 +536,6 @@
     background-color: #e9f2fe;
     z-index: 1;
     position: relative;
-    min-height: 314px;
 }
 .service-image-box2 .order-number {
     font-size: 28px;

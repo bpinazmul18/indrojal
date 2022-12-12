@@ -1129,7 +1129,9 @@ input::-webkit-input-placeholder {
     background-image: url("../images/services/product-bck.jpg");
 }
 .parallax3 {
-    background-image: url("../images/parallax/03.jpg");
+    background: linear-gradient(rgba(13, 34, 53, 0.75), rgba(13, 34, 53, 0.75)),
+        url("../images/parallax/03.jpg");
+    background-attachment: fixed;
 }
 .parallax4 {
     background-image: url("../images/parallax/04.jpg");
@@ -1714,19 +1716,14 @@ input::-webkit-input-placeholder {
 .cta .flat-contact-now a span {
     margin-left: 16px;
 }
-.cta-type2 {
-    padding: 94px 0 87px 0;
-    position: relative;
-    overflow: hidden;
-}
-.cta-type2 .section-overlay {
+/* .cta-type2 .section-overlay {
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     position: absolute;
     background-color: rgba(13, 34, 53, 0.75);
-}
+} */
 .cta-type2 .cta-content {
     z-index: 9;
 }
@@ -1758,16 +1755,16 @@ input::-webkit-input-placeholder {
     border: 1px dashed rgba(255, 255, 255, 0.18);
 }
 .cta-type2 .circle-border1 {
-    width: 420px;
-    height: 420px;
+    width: 320px;
+    height: 320px;
 }
 .cta-type2 .circle-border2 {
-    width: 538px;
-    height: 538px;
+    width: 438px;
+    height: 438px;
 }
 .cta-type2 .circle-border3 {
-    width: 653px;
-    height: 653px;
+    width: 553px;
+    height: 553px;
 }
 .cta-type2 .flat-contact-now a {
     padding: 14px 26px;

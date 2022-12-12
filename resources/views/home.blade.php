@@ -56,7 +56,7 @@
                     <div class="iconbox-icon"><span class="icon"><img src="{{asset('asset/images/home_icon/1.png')}}" alt="" data-bgposition="center center" data-no-retina></span></div>
                     <div class="iconbox-content">
                         <h3 class="title">ক্রিয়েটিভ বা সৃজনশীল সেবা </h3>
-                        <p>
+                        <p class="mb-0">
                             ডিজিটাল ভিডিও প্রোডাকশন, কপিরাইটিং, গ্রাফিক্স ডিজাইন, ডিজিটাল ফটোগ্রাফি, ইউ এক্স ডিজাইন,
                             এনিমেশন,
                             ইউএক্স টেস্টিং
@@ -70,7 +70,7 @@
                     <div class="iconbox-icon"><span class="icon"><img src="{{asset('asset/images/home_icon/3.png')}}" alt="" data-bgposition="center center" data-no-retina></span></div>
                     <div class="iconbox-content">
                         <h3 class="title">তথ্যপ্রযুক্তি বা আইটি সেবা</h3>
-                        <p>
+                        <p class="mb-0">
                             ওয়েব ডেভেলপমেন্ট, মোবাইল এপ্লিকেশন ডেভেলপমেন্ট, প্রসেস অটোমেশন, সাইবার সিকিউরিটি,
                             এন্টারপ্রাইজ
                             সল্যুশন
@@ -84,7 +84,7 @@
                     <div class="iconbox-icon"><img class="icon" src="{{asset('asset/images/home_icon/2.png')}}" alt="" data-bgposition="center center" data-no-retina></div>
                     <div class="iconbox-content">
                         <h3 class="title">ডিজিটাল মার্কেটিং ও ব্র্যান্ডিং সেবা</h3>
-                        <p>
+                        <p class="mb-0">
                             ডিজিটাল স্ট্রাটেজি, সোশাল মিডিয়া ম্যানেজমেন্ট, ইনফ্লুয়েন্সার মার্কেটিং, গ্রাহক বিশ্লেষণ ও
                             এনালেটিক্স, সোশাল মিডিয়া মার্কেটিং, ব্র্যান্ড এক্টিভেশন, সমন্বিত প্রচারণা বা ইন্টিগ্রেটেড
                             মার্কেটিং
@@ -167,8 +167,7 @@
     </div>
 </section>
 <!-- fact -->
-<section class="cta-type2 parallax parallax3">
-    <div class="section-overlay"></div>
+<section class="cta-type2 parallax parallax3 overflow-hidden position-relative py-5">
     <div class="container position-relative text-center">
         <div class="cta-content position-relative">
             <div class="icon"><span class="icon-support"></span></div>
@@ -183,10 +182,10 @@
         <div class="circle-border circle-border3 none-767"></div>
     </div>
 </section><!-- cta -->
-<section class="flat-it-services flat-it-services-style1 py-4">
+<section class="flat-it-services flat-it-services-style1 pt-5 pb-0">
     <div class="container">
-        <div class="title-section text-center">
-            <h2 class="sub-title flat-title">আমাদের সেবাসমূহ</h2>
+        <div class="title-section text-center mb-5">
+            <h2 class="sub-title flat-title mb-0">আমাদের সেবাসমূহ</h2>
             <!-- <h2 class="flat-title">আপনার শিল্পের জন্য পরিচালিত আইটি পরিষেবাগুলি</h2>-->
         </div>
         {{-- @include('frontent.common.home-page-it-services') --}}
@@ -196,8 +195,8 @@
 <section class="background-two-section py-4">
     <div class="py-2 flat-case-study flat-case-study-type1 flat-case-study-style1">
         <div class="container">
-            <div class="title-section text-center">
-                <p class="sub-title flat-title">আমাদের এন্টারপ্রাইজ সল্যুশনগুলো </p>
+            <div class="title-section text-center mb-4">
+                <p class="sub-title flat-title mb-0">আমাদের এন্টারপ্রাইজ সল্যুশনগুলো </p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="400ms">
@@ -250,7 +249,7 @@
 <!-- background-two-section -->
 <section class="testimonial testimonial-style1 py-4">
     <div class="container">
-        <div class="title-section text-center">
+        <div class="title-section text-center mb-0">
             <p class="sub-title">প্রশংসাপত্র</p>
             <h2 class="flat-title">আমাদের কি বলে সম্মানিত গ্রাহকরা!</h2>
         </div>
