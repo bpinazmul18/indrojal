@@ -26,6 +26,7 @@
 * flat-tab
 * btn-play-animation
 * about-us
+* components design
 */
 
 @font-face {
@@ -2522,22 +2523,7 @@ input::-webkit-input-placeholder {
     width: 50%;
     background-color: #f4f9ff;
 }
-.counter .content-counter .icon-count {
-    margin-bottom: 19px;
-}
-.counter .content-counter .icon-count span {
-    font-size: 42px;
-    color: #0e6b4f;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.counter .content-counter .numb-count-wrap {
-    margin-bottom: 9px;
-}
-.counter .content-counter .numb-count-wrap .numb-count {
+/* .card .content-counter .numb-count {
     font-size: 45px;
     line-height: 58px;
     font-weight: 700;
@@ -2547,8 +2533,8 @@ input::-webkit-input-placeholder {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-.counter .content-counter .numb-count-wrap .numb-plus {
+} */
+/* .card .content-counter .numb-plus {
     font-size: 65px;
     line-height: 65px;
     font-weight: 700;
@@ -2558,8 +2544,8 @@ input::-webkit-input-placeholder {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-.counter .content-counter .name-count {
+} */
+/* .card.counter .name-count {
     font-size: 18px;
     line-height: 28px;
     font-weight: 700;
@@ -2569,31 +2555,34 @@ input::-webkit-input-placeholder {
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-.counter-type2 .content-counter {
-    /* width: 270px; */
+} */
+/* .card:hover.counter .name-count {
+    color: #fff;
+} */
+/* .card .content-counter {
+    width: 270px;
     text-align: center;
     border-radius: 5px;
     background-color: #e9f2fe;
     padding: 35px 15px 40px 15px;
-}
-.counter-type2 .content-counter .numb-count-wrap .numb-count {
+} */
+/* .card .content-counter .numb-count {
     font-size: 65px;
     line-height: 65px;
-}
-.counter-type2 .content-counter .name-count {
+} */
+/* .card .content-counter .name-count {
     font-size: 22px;
     line-height: 35px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-}
-.counter-type2 .content-counter:hover .icon-count span,
-.counter-type2 .content-counter:hover .numb-count-wrap .numb-count,
-.counter-type2 .content-counter:hover .numb-count-wrap .numb-plus,
+} */
+/* .counter-type2 .content-counter:hover .icon-count span,
+.counter-type2 .content-counter:hover .numb-count,
+.counter-type2 .content-counter:hover .numb-plus,
 .counter-type2 .content-counter:hover .name-count {
     color: #ffffff;
-}
+} */
 .counter-type3 .content-counter {
     width: 236px;
     border-right: 2px solid #d9e9fc;
@@ -3389,4 +3378,56 @@ input::-webkit-input-placeholder {
 -------------------------------------------------------------- */
 .about-us {
     transform: translateY(-6%);
+}
+
+/* Components design
+-------------------------------------------------------------- */
+
+.card.counter {
+    background-color: #e9f2fe;
+}
+
+.card:hover {
+    background-color: rgb(14 107 79);
+    transition: all 0.5s ease;
+}
+
+.card.counter .icon {
+    font-size: 42px;
+    color: #0e6b4f;
+    transition: all 0.5s ease;
+}
+
+.card:hover.counter .icon {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.card.counter .content .numb-count,
+.card.counter .content .numb-plus {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #0d2235;
+}
+
+.card:hover.counter .content .numb-count,
+.card:hover.counter .content .numb-plus {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.card.counter span {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #0e6b4f;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card:hover.counter span {
+    color: #fff;
+    transition: all 0.5s ease;
 }
