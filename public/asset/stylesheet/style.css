@@ -2876,20 +2876,21 @@ input::-webkit-input-placeholder {
 /* case-study
 -------------------------------------------------------------- */
 .background-two-section {
-    padding: 10px 0 0 0;
-    background-image: url("../images/home1/02.jpg");
+    background-image: url(../images/home1/02.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    /* padding: 10px 0 0 0; */
+    /* background-image: url("../images/home1/02.jpg");
+    background-size: cover; */
 }
 /* .flat-case-study-type1 .title-section {
     margin-bottom: 98px;
 } */
-.flat-case-study-style1 {
-    /* margin-top: -125px; */
-    /* transform: translateY(28%); */
+/* .flat-case-study-style1 {
     background-image: url(../images/home1/02.jpg);
     background-size: cover;
-    /* padding-bottom: 20px; */
-}
+    background-attachment: fixed;
+} */
 .flat-case-study-type2 {
     background-image: url("../images/case/08.jpg");
     background-size: cover;
