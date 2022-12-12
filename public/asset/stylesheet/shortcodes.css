@@ -664,9 +664,7 @@
 }
 .testimonial-box-type1 {
     z-index: 1;
-    padding: 21px 30px 41px 28px;
     background-color: #f5f9ff;
-    min-height: 378px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .testimonial-box-type1 .avatar {
